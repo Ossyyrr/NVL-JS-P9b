@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>	
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<script>
+	
+	var dia = "Lunes,Martes,Miercoles,Jueves,Viernes,Sabado,Domingo";
+
+	var lugar = "Madrid.Sevilla.Barcelona.Valencia.Zaragoza.Bilbao.Donosti";
+
+		dia = dia.split(",");
+		lugar = lugar.split(".");
+	
+
+
+
+	var ordenar = [];
+
+
+		for (var i =0; i<dia.length; i++){
+			
+			ordenar.push([dia[i], lugar[i]]);
+
+		}
+
+
+		document.write(ordenar);
+
+	
+	
+	</script>
+
+
+</head>
+
+
+
+	<body>
+
+
+
+	</body>	    
+</html>
+
